@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light blue background color */
+    text-align: center; /* Center align all text in body */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center align main content */
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+.main-content {
+    display: inline-block; /* Make main-content inline-block for center alignment */
+    text-align: left; /* Ensure text is justified to the left */
+    max-width: 800px; /* Add a max-width for better readability */
+    margin: 0 auto; /* Center align */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for the layout */
+    align-items: flex-start;
+}
+
+article img {
+    width: 150px; /* Reduced photo size */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 15px; /* Space between image and text */
+}
+
+article .content {
+    display: flex;
+    flex-direction: column; /* Stack header, paragraph, and small text */
+}
+
+article .additional-info {
+    font-size: small;
+}
+
+#gallery-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align gallery */
+}
+
+#gallery-preview img {
+    width: 220px;
+    margin: 5px; /* Add margin for better spacing */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.weather {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.weather p {
+    margin: 0;
+}

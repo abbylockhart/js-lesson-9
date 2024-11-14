@@ -75,7 +75,7 @@ function fetchWeatherData() {
 
     Object.keys(locations).forEach(location => {
         const weatherDiv = document.getElementById(`weather-${location}`);
-        fetch(`http://api.openweathermap.org/data/2.5/weather?id=${locations[location]}&appid=${apiKey}&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?id=${locations[location]}&appid=${apiKey}&units=metric`)
             .then(response => response.json())
             .then(data => {
                 const weatherInfo = `
